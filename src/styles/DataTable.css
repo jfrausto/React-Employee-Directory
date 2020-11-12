@@ -1,0 +1,15 @@
+.data-table .col {
+  cursor: pointer;
+}
+
+.data-table .col .pointer:after {
+  font-size: 80%;
+  content: "";
+  margin-right: 18px;
+}
+
+.data-table .col .pointer:hover:after {
+  font-size: 80%;
+  content: "🔻";
+  margin-right: 0;
+}
