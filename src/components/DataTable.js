@@ -2,7 +2,7 @@ import React from "react";
 import TableBody from "./TableBody";
 import "../styles/DataTable.css";
 
-function DataTable({ header, users, handleSort }) {
+function DataTable({ headers, users, handleSort }) {
   return (
     <div className="data-table mt-4">
       <table
@@ -11,7 +11,7 @@ function DataTable({ header, users, handleSort }) {
       >
         <thead>
           <tr>
-            {header.map(({ name, width }) => {
+            {headers.map(({ name, width }) => {
               return (
                 <th
                   className="col"
