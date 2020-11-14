@@ -61,23 +61,31 @@ class DataArea extends Component {
               } else if (b[header] === undefined) {
                 return -1;
               }
-              // alphabetical
+              // sort by name, phone, email, and DOB respectively
               else if (header === "name") {
                 return b[header].first.localeCompare(a[header].first);
-              } else {  // numerical
-                return b[header] - a[header];
+              } else if (header === "phone"){  // numerical
+                return b[header].localeCompare(a[header]);
+              } else if (header === "email") {
+                return b[header].localeCompare(a[header]);
+              } else if (header === "dob") {
+                return b[header].date.localeCompare(a[header].date);
               }
-          } else {  // ASCEND SORT
+          } else {  // ASCEND SORT, check for undefined
             if (a[header] === undefined) {
                 return 1;
               } else if (b[header] === undefined) {
                 return -1;
               }
-              // numerically
+              // sort by name, phone, email, and DOB respectively
               else if (header === "name") {
                 return a[header].first.localeCompare(b[header].first);
-              } else {
-                return a[header] - b[header];
+              } else if (header === "phone") {
+                return a[header].localeCompare(b[header]);
+              } else if (header === "email") {
+                return a[header].localeCompare(b[header]);
+              } else if (header === "dob") {
+                return a[header].date.localeCompare(b[header].date);
               }
           }
     

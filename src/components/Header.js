@@ -3,9 +3,9 @@ import "../styles/Header.css";
 
 export default function Header() {
     return (
-        <div className="header">
+        <div className="header container-fluid py-2">
             <h1>Employee Directory</h1>
-            <p>Use the search box to narrow your search results</p>
+            <p>Use the search box to find employees</p>
             <p>Click on the carrots to filter by table heading</p>
         </div>
     );

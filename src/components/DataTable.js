@@ -4,10 +4,10 @@ import "../styles/DataTable.css";
 
 function DataTable({ headers, users, handleSort }) {
   return (
-    <div className="data-table mt-4">
+    <div className="data-table mt-2">
       <table
         id="table"
-        className="table table-striped table-hover"
+        className="table table-striped"
       >
         <thead>
           <tr>
