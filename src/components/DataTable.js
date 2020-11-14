@@ -2,6 +2,8 @@ import React from "react";
 import TableBody from "./TableBody";
 import "../styles/DataTable.css";
 
+// this functional component contains the table headers and 
+// the bulk of the data in TableBody
 function DataTable({ headers, users, handleSort }) {
   return (
     <div className="data-table mt-2">
@@ -22,7 +24,7 @@ function DataTable({ headers, users, handleSort }) {
                   }}
                 >
                   {name}
-                  <span className="pointer"></span>
+                  <span className="carrot"></span>
                 </th>
               );
             })}

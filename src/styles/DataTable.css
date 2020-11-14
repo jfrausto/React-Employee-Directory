@@ -2,14 +2,14 @@
   cursor: pointer;
 }
 
-.data-table .col .pointer:after {
+.data-table .col .carrot:after {
   font-size: 80%;
   content: "";
-  margin-right: 18px;
+  margin-right: 16px;
 }
 
-.data-table .col .pointer:hover:after {
+.data-table .col .carrot:hover:after {
   font-size: 80%;
-  content: "🔻";
+  content: " 🔻";
   margin-right: 0;
 }

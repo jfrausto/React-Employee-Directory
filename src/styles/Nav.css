@@ -9,9 +9,13 @@
   align-items: flex-start;
 }
 
-.search-area {
-  display: flex;
-  flex-direction: column;
+.search-box {
+  display: inline-flex;
   justify-content: center;
-  align-items: flex-start;
+  width: 600px;
+}
+
+.form-search {
+  display: inline-flex;
+  width: 100%;
 }

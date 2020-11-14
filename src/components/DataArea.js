@@ -5,20 +5,22 @@ import API from "../utils/API";
 import "../styles/DataArea.css";
 
 class DataArea extends Component {
+    // initialize state to have an array of users, sort order, and filtered users
     state = { 
         users: [{}],
         order: "descend",
         filteredUsers: [{}]
     };
-
+    // headers of each column
     headers = [
         { name: "Image", width: "15%" },
         { name: "Name", width: "10%" },
-        { name: "Phone", width: "20%" },
         { name: "Email", width: "20%" },
+        { name: "Phone", width: "20%" },
         { name: "DOB", width: "10%" }
     ];
 
+    // get users and copy them into filtered users
     componentDidMount() {
         API.getUsers().then( (res) => {
             this.setState({
@@ -39,6 +41,7 @@ class DataArea extends Component {
         this.setState({ filteredUsers: filteredList});
     }
 
+    // handles sorting in multiple cases
     handleSort = (header) => {
         // toggles ascend/descend sorting
         if (this.state.order === "descend") {
@@ -90,6 +93,7 @@ class DataArea extends Component {
           }
     
         }
+        // filter according to the compare function
         const sortedUsers = this.state.filteredUsers.sort(compare);
         this.setState({ filteredUsers: sortedUsers });
       }
@@ -106,14 +110,12 @@ class DataArea extends Component {
                         headers={this.headers}
                         users={this.state.filteredUsers}
                         handleSort={this.handleSort}
-                    
                     />
                 </div>
             </div>
                 
         );
     }
-
 }
 
 export default DataArea;
