@@ -1,70 +1,40 @@
-# React-powered Employee Directory
+# React Employee Directory
 
-This application uses React to display an employee directory on a single page with filters and search parameters.
+This application uses React to display an employee directory on a single page with filters and search parameters. Sample users and placeholders are used for demonstration purposes.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Testing)
+- [Questions](#Questions)
+- [Links](#Links)
 
-### `npm start`
+## Installation
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Visit the application with [this]()
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Usage
 
-### `npm test`
+This application uses the React Framework to dynamically search and display employees instantly as you type. Sample employee information is supplied by the [random user](https://randomuser.me/) API. Use this application on your database to search for employees by name, email, phone number or date of birth. You can also sort each category by clicking on the carrot on each header.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Directory of Employees](/screenshots/employe-directory.PNG?raw=true "Directory filled with sample data")
 
-### `npm run build`
+## License
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project is covered under the **MIT** license -- see more info [here](https://opensource.org/licenses/MIT).
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Contributing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Create a new branch and do a pull request, pending review.
 
-### `npm run eject`
+## Questions
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- GitHub: [jfrausto](https://github.com/jfrausto)
+- If you have any further questions, you can reach me at _fraustojesse24@gmail.com_
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Links
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved [here](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved [here](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved [here](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved [here](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved [here](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved [here](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Deployed app]()
