@@ -14,7 +14,7 @@ This application uses React to display an employee directory on a single page wi
 
 ## Installation
 
-Visit the application with [this]()
+Visit the application [here](https://jfrausto.github.io/React-Employee-Directory/)
 
 ## Usage
 
@@ -37,4 +37,4 @@ Create a new branch and do a pull request, pending review.
 
 ## Links
 
-- [Deployed app]()
+- [Deployed app](https://jfrausto.github.io/React-Employee-Directory/)
